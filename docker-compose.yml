@@ -5,7 +5,7 @@ services:
     build: ./database
     ports:
      - "5432:5432"
-    expose:
+    environment:
      VIRTUAL_HOST: app.vonji.fr
   api:
     image: golang:1-6
@@ -15,7 +15,7 @@ services:
     depends_on:
      - db
     restart: unless-stopped
-    expose:
+    environment:
      VIRTUAL_HOST: app.vonji.fr 
   client:
     image: node:latest
@@ -26,6 +26,6 @@ services:
      - "8080"
     depends_on:
      - api
-    expose:
+    environment:
      VIRTUAL_HOST: app.vonji.fr
  
