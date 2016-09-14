@@ -4,3 +4,4 @@ psql -U postgres -d vonji -f ./requests.sql
 psql -U postgres -d vonji -f ./responses.sql
 psql -U postgres -d vonji -f ./tags.sql
 psql -U postgres -d vonji -f ./request_tags.sql
+psql -U postgres -d vonji -f ./achievements.sql
