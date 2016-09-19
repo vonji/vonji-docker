@@ -6,3 +6,4 @@ TRUNCATE "comments";
 TRUNCATE "transactions";
 TRUNCATE "request_tags";
 TRUNCATE "user_tags";
+TRUNCATE "achievements"
