@@ -5,5 +5,6 @@ TRUNCATE "responses";
 TRUNCATE "comments";
 TRUNCATE "transactions";
 TRUNCATE "request_tags";
+TRUNCATE "user_achievements";
 TRUNCATE "user_tags";
-TRUNCATE "achievements"
+TRUNCATE "achievements";

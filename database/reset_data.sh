@@ -1,5 +1,7 @@
 psql -U postgres -d vonji -f ./clear.sql
 psql -U postgres -d vonji -f ./users.sql
+psql -U postgres -d vonji -f ./user_tags.sql
+psql -U postgres -d vonji -f ./user_achievements.sql
 psql -U postgres -d vonji -f ./requests.sql
 psql -U postgres -d vonji -f ./responses.sql
 psql -U postgres -d vonji -f ./tags.sql

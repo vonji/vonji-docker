@@ -1,4 +1,4 @@
-ALTER SEQUENCE requests_id_seq RESTART WITH 1;
+ALTER SEQUENCE achievements_id_seq RESTART WITH 1;
 INSERT INTO achievements (id, created_at, updated_at, deleted_at, name, description, category, check_id, check_data, award) VALUES (12, '2016-08-07 11:10:34.232342+02', '2016-09-13 13:04:48.398535+02', NULL, 'Actif', 'Proposer 10 fois son aide pour une demande de service', 'Active', 3, 10, 75);
 INSERT INTO achievements (id, created_at, updated_at, deleted_at, name, description, category, check_id, check_data, award) VALUES (18, '2016-08-07 11:10:34.232342+02', '2016-09-13 13:04:48.798137+02', NULL, 'Reconnu', 'Etre tague pour une competence', 'Popularity', 5, 1, 60);
 INSERT INTO achievements (id, created_at, updated_at, deleted_at, name, description, category, check_id, check_data, award) VALUES (19, '2016-08-07 11:10:34.232342+02', '2016-09-13 13:04:49.443772+02', NULL, 'Maitre', 'Etre tague pour une competence par 3 membre differents', 'Popularity', 5, 3, 75);
