@@ -8,3 +8,4 @@ TRUNCATE "request_tags";
 TRUNCATE "user_achievements";
 TRUNCATE "user_tags";
 TRUNCATE "achievements";
+TRUNCATE "notifications";
