@@ -4,3 +4,6 @@
 [submodule "client/vonji-client"]
 	path = client/vonji-client
 	url = https://github.com/vonji/vonji-client
+[submodule "teaser"]
+	path = teaser/vonji-teaser
+	url = https://github.com/vonji/vonji-teaser.git
