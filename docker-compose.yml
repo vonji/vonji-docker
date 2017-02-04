@@ -22,6 +22,12 @@ services:
     build: ./client
     container_name: client
     ports:
-     - "8080:8080"
+     - "7770:8080"
     depends_on:
      - api
+  teaser:
+    image: vonji/teaser
+    build: ./teaser/vonji-teaser
+    container_name: teaser
+    ports:
+      - "80:8080"
